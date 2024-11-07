@@ -10,3 +10,4 @@ resources:
 
 steps:
   - script: echo "hello, world 2"
+  - script: echo "hello, world 3"
