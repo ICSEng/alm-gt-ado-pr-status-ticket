@@ -1,0 +1,12 @@
+trigger: none
+pr: none
+
+resources:
+  pipelines:
+    - pipeline: test
+      project: ALM-team-private
+      source: test1
+      trigger: true
+
+steps:
+  - script: echo "hello, world 2"
